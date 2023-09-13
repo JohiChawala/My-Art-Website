@@ -1,0 +1,150 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6dc50;
+}
+
+/* Header Styles */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+/* Exhibitions Section Styles */
+.exhibitions h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+/* Artists Section Styles */
+.artists h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* About Us Section Styles */
+.about h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.about-image {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.team-member {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team-member img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.team-member h4 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.team-member p {
+    color: #777;
+}
+
+/* Contact Section Styles */
+.contact h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .hero-content {
+        padding: 10px;
+    }
+}
+
+
+

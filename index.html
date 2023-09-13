@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Art Gallery Logo" class=" rounded-circle " width="200" height="100"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item bar">
+                    <a class="nav-link" href="#Hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Exhibition">Exhibitions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Artist">Artists</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero" id="Hero">
+    <img src="images/art gallery's exhibitions1.avif" alt="Gallery Interior" class="img-fluid">
+    <div class="hero-content">
+        <h1>Welcome to our Art Gallery</h1>
+        <p>Explore our latest exhibitions and featured artists</p>
+    </div>
+</div>
+
+<!-- Exhibitions Section -->
+<div class="container exhibitions" id="Exhibition">
+    <h2>Exhibitions</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/exhibution-img3.jpg" alt="Exhibition Artwork" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">The Great Disillusion</h5>
+                    <p class="card-text">Louise Bech Pedersen is a graduate from the Royal College of Art in London and an artist and designer living in Copenhagen.</p>
+                    <p class="card-text"><small class="text-muted">Date: January 1 - March 1, 2020</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/exhibution-img2.jpg" alt="Exhibition Artwork" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Cancer Max</h5>
+                    <p class="card-text">Halfdan Pisket, b. 1985, was accepted at the Danish Royal Academy of Art at only 17 and at an age of only 35 he has, to name a few,.</p>
+                    <p class="card-text"><small class="text-muted">Date: March 11 - April 6, 2011</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/exhibution-img4.jpg" alt="Exhibition Artwork" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Untitled V</h5>
+                    <p class="card-text">Louise Bech Pedersen is a graduate from the Royal College of Art in London and an artist and designer living in Copenhagen.</p>
+                    <p class="card-text"><small class="text-muted">Date: January 1 - March 1, 2020</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Artists Section -->
+<div class="container artists" id="Artist">
+    <h2>Featured Artists</h2>
+    <!-- Artist Cards -->
+    <div class="row">
+        <!-- Artist Card 1 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="images/artist-1.jpg" alt="Artist 1" class="card-img-top"  width="100" height="350">
+                <div class="card-body">
+                    <h5 class="card-title">Jane Smith</h5>
+                    <p class="card-text">Jane Smith is a contemporary artist known for her vibrant and expressive abstract paintings. With a background in fine arts, she has been creating stunning artworks for over a decade. Jane's work is characterized by bold brushstrokes, vivid colors, and a sense of spontaneity. Her art reflects her passion for exploring emotions and the abstract nature of the human experience.</p>
+                    <p class="card-text">Artistic style: Abstract, Oil Painting</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Artist Card 2 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="images/artist-2.jpeg" alt="Artist 2" class="card-img-top" width="100" height="350">
+                <div class="card-body">
+                    <h5 class="card-title">John Doe</h5>
+                    <p class="card-text">John Doe is a versatile artist whose portfolio spans various mediums.  John often draws inspiration from the world around him. His oil paintings capture the essence of landscapes, portraying both the serenity of nature and its dynamic beauty. John's work has been exhibited in galleries worldwide, earning him recognition for his artistic talent and dedication to his craft.</p>
+                    <p class="card-text">Artistic style: Oil Painting, Sculpture</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Artist Card 3 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="images/artist-3.jpg" alt="Artist 3" class="card-img-top"  width="100" height="350">
+                <div class="card-body">
+                    <h5 class="card-title">Amanda Green</h5>
+                    <p class="card-text">Amanda Green is an emerging artist known for her innovative mixed-media works. Her art combines traditional painting techniques with found objects and digital elements, resulting in visually captivating and thought-provoking pieces.With a deep appreciation for nature and the environment, Amanda's work explores themes of identity, technology, and the human experience.</p>
+                    <p class="card-text">Artistic style: Mixed Media, Contemporary</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About Us Section -->
+<div class="container about" id="About">
+    <h2 class="text-center">Our Story</h2>
+    <div class="row">
+        <div class="col-lg-6">
+            <p class="about-text">
+                At the Art Gallery, we are passionate about art and committed to showcasing the beauty and creativity that the world of art offers. Founded in 1999, our gallery has been a hub for artists, art enthusiasts, and collectors alike.
+            </p>
+            <p class="about-text">
+                Our mission is to promote and support emerging and established artists by providing a platform for them to share their unique visions with the world. We believe that art has the power to inspire, provoke thought, and connect people across cultures and backgrounds.
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <img src="images/Gallery Interior.jpg" alt="Gallery Interior" class="img-fluid about-image">
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-lg-12">
+            <h3 class="text-center">Meet Our Team</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="team-member">
+                <img src="images/team-member1.webp" alt="Team Member 1" class="img-fluid">
+                <h4>John Smith</h4>
+                <p>Founder & Curator</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="team-member">
+                <img src="images/team-member2.jpg" alt="Team Member 2" class="img-fluid">
+                <h4>Jane Doe</h4>
+                <p>Art Consultant</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="team-member">
+                <img src="images/team-member3.jpg" alt="Team Member 3" class="img-fluid">
+                <h4>Alice Johnson</h4>
+                <p>Gallery Manager</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="container contact" id="Contact">
+    <h2>Contact Us</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Your Phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <p>Contact information:</p>
+            <address>
+                Gallery Address<br>
+                Ghotki, Sukkur, Sindh<br>
+                Phone: (92) 307-2411290<br>
+                Email: juhic834@gmail.com
+            </address>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer bg-secondary text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Connect with Us</h4>
+                <ul class="social-icons">
+                    <li><a href="#" class="social-icon"><i class="fab fa-facebook-f"></i><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="social-icon"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" class="social-icon"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <p>&copy; 2023 Art Gallery. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap JS scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
